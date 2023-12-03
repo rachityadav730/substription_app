@@ -15,3 +15,8 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// add javascipt to system add below these line
+import 'bootstrap'
+import 'popper.js'
+import '../stylesheets/application'
