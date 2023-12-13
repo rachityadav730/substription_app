@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   devise_for :users
   root to: 'static_public#landing_page'
   get 'privacy', to: 'static_public#privacy'
